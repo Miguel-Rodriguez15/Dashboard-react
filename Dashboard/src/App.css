@@ -5,6 +5,7 @@
 }
 .container{
     display:flex;
+    overflow-y: hidden;
 }
 main{
     width: 100%;
