@@ -1,9 +1,19 @@
 import React from 'react'
+import { TotalProducts } from './TotalProducts'
+import OrdersPlaced from './OrdersPlaced'
+import IncomeGenerated from './IncomeGenerated'
+import AveragePrice from './AveragePrice'
+import MostSelledProduct from './MostSelledProduct'
+
 
 const DashBoard = () => {
   return (
     <div>
-      <h1>dashboard pages</h1>
+    <TotalProducts/>
+    <OrdersPlaced/>
+    <IncomeGenerated/>
+     <AveragePrice/>
+     <MostSelledProduct/>
     </div>
 
   )
