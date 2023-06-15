@@ -1,0 +1,30 @@
+.containers {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
+  gap: 20px;
+  justify-content: center;
+
+}
+
+.item {
+  max-width: 100%;
+  height: auto;
+}
+
+h2 {
+  color: black;
+  font-family: sans-serif;
+}
+
+/* Media queries para pantallas más pequeñas */
+@media (max-width: 768px) {
+  .containers {
+    grid-template-columns: repeat(auto-fit, minmax(45%, 1fr));
+  }
+}
+
+@media (max-width: 576px) {
+  .containers {
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+  }
+}

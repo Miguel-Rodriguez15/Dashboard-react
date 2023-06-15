@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import { Chart } from 'chart.js/auto';
-
+import "../assets/canvas.css"
 export  const TotalProducts = () => {
   const chartRef = useRef(null);
 
@@ -59,8 +59,7 @@ export  const TotalProducts = () => {
 
   return (
     <div>
-      <h1>Gráfica de barras de cantidades de productos</h1>
-      <canvas id="productChart" width="100" height="100"></canvas>
+      <canvas id="productChart" style={{ width: '100px', height: '100px' }}></canvas>
     </div>
   );
 };

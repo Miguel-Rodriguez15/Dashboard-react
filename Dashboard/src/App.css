@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
     text-decoration: none;
+
 }
 .container{
     display:flex;
@@ -11,22 +12,36 @@
 main{
     width: 100%;
     padding: 20px;
+    background-color: hsl(215, 33%, 23%);
+}
+p{
+    color: white;
+}
+h1{
+    color: white;
+}
+h2{
+    font-family: sans-serif;
 }
 .sidebar{
-    background: #000;
+    
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: hsl(213, 34%, 11%);
     color: #fff;
-    height: 100vh;
     width: 200px;
+    overflow-y: auto;
     transition: all 0.5s;
+    z-index: 9999;
+    
 }
 .top_section{
     display: flex;
     align-items:center;
     padding:20px 15px;
 }
-.logo{
-    font-size: 30px;
-}
+
 .bars{
     display: flex;
     font-size: 25px;

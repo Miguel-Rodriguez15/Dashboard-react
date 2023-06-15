@@ -68,7 +68,7 @@ function IncomeGenerated() {
   
     return (
       <div>
-        <h1>Line Chart with Total Income</h1>
+      
         <canvas ref={chartRef} width="400" height="200"></canvas>
       </div>
     );

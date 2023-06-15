@@ -62,7 +62,7 @@ function OrdersPlaced() {
   
     return (
       <div>
-        <h1>Gráfico de pedidos realizados</h1>
+      
         <canvas id="pedidoChart" width="400" height="200"></canvas>
       </div>
     );

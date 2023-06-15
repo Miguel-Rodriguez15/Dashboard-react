@@ -112,7 +112,7 @@ function MostSelledProduct() {
 
     return (
         <div>
-            <h1>Productos más vendidos</h1>
+    
             <canvas ref={chartRef} width="400" height="200"></canvas>
         </div>
     );
