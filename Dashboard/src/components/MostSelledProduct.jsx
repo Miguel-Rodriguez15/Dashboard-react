@@ -111,10 +111,10 @@ function MostSelledProduct() {
     }, []);
 
     return (
-        <div>
-    
+        <article>
+            <h2>Productos mas vendidos</h2>
             <canvas ref={chartRef} width="400" height="200"></canvas>
-        </div>
+        </article>
     );
 };
 export default MostSelledProduct

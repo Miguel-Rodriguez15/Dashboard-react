@@ -67,10 +67,10 @@ function IncomeGenerated() {
     }, [productData, totalIncome]);
   
     return (
-      <div>
-      
+      <article>
+       <h2>Ingresos totales generados: {totalIncome}</h2>
         <canvas ref={chartRef} width="400" height="200"></canvas>
-      </div>
+      </article>
     );
   }
 

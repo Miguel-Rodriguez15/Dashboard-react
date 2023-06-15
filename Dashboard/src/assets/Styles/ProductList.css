@@ -7,7 +7,7 @@
 	padding: 20px;
 	
   }
-  
+
   @media screen and (max-width: 768px) {
 	.container-items {
 	  grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
@@ -25,7 +25,7 @@
 	color: black;
 	font-family: sans-serif;
   }
-  
+
   /* Resto del CSS */
   
   .item {
@@ -54,6 +54,8 @@
 	display: flex;
 	flex-direction: column;
 	gap: 10px;
+    
+	  
   }
   
   .price {
@@ -136,4 +138,9 @@
 	  transform: rotate(45deg);
 	}
   }
-  
+
+
+ .color-h2{
+	color:black;
+	font-family: sans-serif;
+  }

@@ -1,8 +1,8 @@
-import React,{useEffect,useState} from 'react'
+import React, { useEffect, useState } from 'react'
 import { Chart } from 'chart.js/auto';
-
+import "../assets/styles/ProductList.css"
 function AveragePrice() {
-    const [productData, setProductData] = useState([]);
+  const [productData, setProductData] = useState([]);
   const [averagePrice, setAveragePrice] = useState(0);
   const [chartInstance, setChartInstance] = useState(null);
 
@@ -71,10 +71,10 @@ function AveragePrice() {
   }, [productData]);
 
   return (
-    <div>
+    <article>
+      <h2 >Precio promedio de los productos: {averagePrice}</h2>
       <canvas id="doughnutChart" width="400" height="200"></canvas>
-      <p>Precio promedio de los productos: {averagePrice}</p>
-    </div>
+    </article>
   );
 };
 export default AveragePrice
